@@ -1,0 +1,370 @@
+body {
+  background-image: url(bg11.jpg);
+}
+
+.logo {
+  height: 80px;
+}
+.nav-elements {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn {
+  margin: 20px;
+  height: 70%;
+  background-color: rgb(25, 25, 25);
+}
+.navbar {
+  background-image: url(bg10.jpg);
+}
+.dropdown-item {
+  background-color: antiquewhite;
+}
+.navbar2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 90px;
+  background-image: url(bg4.jpg);
+  margin-top: 5px;
+}
+.phn-icon {
+  color: white;
+  margin-top: 10px;
+}
+.zoom {
+  color: white;
+}
+.insta {
+  margin-top: 20px;
+  color: white;
+}
+.facebook {
+  margin-top: 20px;
+  color: white;
+}
+.yt {
+  margin-top: 20px;
+  color: white;
+}
+.X {
+  color: white;
+  margin-top: 20px;
+}
+.linkedin {
+  color: white;
+  margin-top: 20px;
+}
+.hero-sec {
+  margin-top: 10px;
+  display: flex;
+  background-image: url();
+}
+.hero-sec img {
+  height: 80%;
+  width: 80%;
+  transform: translateX(150px);
+}
+.intro {
+  display: flex;
+}
+.intro {
+  height: 650px;
+  display: flex;
+  margin-top: 5px;
+  background-image: url(bg5.jpg);
+  background-size: cover;
+  justify-content: space-evenly;
+}
+.card1 {
+  margin-right: 300px;
+}
+.card1 img {
+  height: 400px;
+  width: 750px;
+  margin-top: 40px;
+  padding-left: 150px;
+}
+.intro a {
+  background-color: black;
+  margin-left: 350px;
+}
+
+.intro p {
+  color: white;
+  font-size: 1.4em;
+  margin-top: 30px;
+  padding-right: 100px;
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.services div {
+  padding-top: 30px;
+}
+.services a {
+  height: 50px;
+}
+h2 {
+  font-weight: bolder;
+}
+.examples {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  background-image: url(bg10.jpg);
+  background-size: cover;
+}
+.examples .card {
+  width: 18rem;
+  margin: 10px;
+}
+.examples a {
+  height: 50px;
+  width: 50px;
+}
+.exp {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.exp1 {
+  padding-left: 80px;
+}
+.exp2 {
+  font-size: xx-large;
+  text-align: center;
+  padding-left: 150px;
+  font-weight: bold;
+}
+.text1 {
+  background-color: white;
+  border: solid 5px;
+  border-top: 10px;
+  border-left: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.text2 {
+  background-color: white;
+  border: solid 5px;
+  border-top: 10px;
+  border-left: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 220px;
+}
+.text3 {
+  background-color: white;
+  border: solid 5px;
+  border-top: 10px;
+  border-left: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 220px;
+}
+.text4 {
+  background-color: white;
+  border: solid 5px;
+  border-top: 10px;
+  border-left: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 220px;
+}
+.banner {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 250px;
+  background-image: url(bg12.jpg);
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.web-examples {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.contact-banner {
+  margin-top: 60px;
+  display: flex;
+}
+.contact-banner img {
+  margin-right: 25px;
+  margin-left: 25px;
+  transform: translateX(130px);
+  margin-top: 60px;
+}
+/* form */
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.card {
+  width: 80px;
+  border-radius: 0.75rem;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.card > .row {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+  background: #223;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.card > .row > .description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 520px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition-delay: 0.3s;
+  transition: all 0.3s ease;
+}
+
+.description p {
+  color: #b0b0ba;
+  padding-top: 5px;
+}
+
+.description h4 {
+  text-transform: uppercase;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  width: 600px;
+}
+
+input:checked + label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+  background-image: url("pexels-mikael-blomkvist-6476808.jpg");
+}
+.card[for="c2"] {
+  background-image: url("pexels-pixabay-4158.jpg");
+}
+.card[for="c3"] {
+  background-image: url("pexels-pixabay-270669.jpg");
+}
+.card[for="c4"] {
+  background-image: url("pexels-rpnickson-3082341.jpg");
+}
+.card[for="c5"] {
+  background-image: url("pexels-mikechie-esparagoza-749296-1742370.jpg");
+}
+
+/* footer */
+
+footer {
+  background-color: #09103f;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left,
+.footer-right {
+  width: 45%;
+}
+
+.veteran-image {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-info,
+.locations {
+  margin-bottom: 20px;
+}
+
+.contact-info h3,
+.locations h3 {
+  margin-bottom: 10px;
+}
+
+.contact-info p,
+.locations p {
+  margin: 5px 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.footer-bottom a {
+  color: #00b7ff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
