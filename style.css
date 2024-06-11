@@ -4,6 +4,7 @@ body {
 
 .logo {
   height: 80px;
+  margin-left: 50px;
 }
 .nav-elements {
   display: flex;
@@ -15,7 +16,7 @@ body {
   background-color: rgb(25, 25, 25);
 }
 .navbar {
-  background-image: url(bg10.jpg);
+  background-image: url(bg13.jpg);
 }
 .dropdown-item {
   background-color: antiquewhite;
@@ -26,6 +27,7 @@ body {
   height: 90px;
   background-image: url(bg4.jpg);
   margin-top: 5px;
+  margin-bottom: 60px;
 }
 .phn-icon {
   color: white;
@@ -58,14 +60,12 @@ body {
   margin-top: 10px;
   display: flex;
   background-image: url();
+  margin-bottom: 40px;
 }
 .hero-sec img {
   height: 80%;
   width: 80%;
   transform: translateX(150px);
-}
-.intro {
-  display: flex;
 }
 .intro {
   height: 650px;
@@ -74,6 +74,7 @@ body {
   background-image: url(bg5.jpg);
   background-size: cover;
   justify-content: space-evenly;
+  margin-bottom: 60px;
 }
 .card1 {
   margin-right: 300px;
@@ -112,9 +113,10 @@ h2 {
 .examples {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10px;
+  margin-top: 30px;
   background-image: url(bg10.jpg);
   background-size: cover;
+  margin-bottom: 30px;
 }
 .examples .card {
   width: 18rem;
@@ -128,6 +130,7 @@ h2 {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 30px;
 }
 .exp1 {
   padding-left: 80px;
@@ -198,6 +201,7 @@ h2 {
 .contact-banner {
   margin-top: 60px;
   display: flex;
+  margin-bottom: 80px;
 }
 .contact-banner img {
   margin-right: 25px;
